@@ -1,0 +1,154 @@
+.menu_partager_top
+{
+	color: #fff;
+	margin-right: 5px;
+	float: left;
+	display: block;
+}
+.btn_menu
+{
+	color: #ffffff;
+	padding: 0px;
+	font-family: Verdana;
+	font-size: 11px;
+	margin: 0px;
+	border-left-color: #b7b8b9;
+	border-left-width: 1px;
+	border-left-style: solid;
+}
+.btn_partager
+{
+	text-align: center;
+}
+.list_partager
+{
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+.list_partager li
+{
+	vertical-align: bottom;
+	display: inline-block;
+}
+.list_partager .p_twitter a
+{
+	width: 20px;
+	height: 30px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	display: block;
+	background-image: url("img/pic_twitter.png");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: 0px;
+	background-size: auto;
+	background-origin: padding-box;
+	background-clip: border-box;
+	background-color: transparent;
+}
+.list_partager .p_facebook a
+{
+	width: 10px;
+	height: 30px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	display: block;
+	background-image: url("img/pic_facebook.png");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: 0px;
+	background-size: auto;
+	background-origin: padding-box;
+	background-clip: border-box;
+	background-color: transparent;
+}
+.list_partager .p_mail a
+{
+	width: 19px;
+	height: 30px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	display: block;
+	background-image: url("img/pic_send.png");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: 0px;
+	background-size: auto;
+	background-origin: padding-box;
+	background-clip: border-box;
+	background-color: transparent;
+}
+.list_partager .p_print a
+{
+	width: 22px;
+	height: 30px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	display: block;
+	background-image: url("img/pic_print.png");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: 0px;
+	background-size: auto;
+	background-origin: padding-box;
+	background-clip: border-box;
+	background-color: transparent;
+}
+.list_partager .p_notepad a
+{
+	width: 22px;
+	height: 30px;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	display: block;
+	background-image: url("img/pic_comment_no_square.png");
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: 0px;
+	background-size: auto;
+	background-origin: padding-box;
+	background-clip: border-box;
+	background-color: transparent;
+}
+.list_partager .p_twitter a:hover{background:transparent url("img/pic_twitter_hover.png") 0 -0 no-repeat;}
+.list_partager .p_facebook a:hover{background:transparent url("img/pic_facebook_hover.png") 0 -0 no-repeat;}
+.list_partager .p_mail a:hover{background:transparent url("img/pic_send_hover.png") 0 -0 no-repeat;}
+.list_partager .p_print a:hover{background:transparent url("img/pic_print_hover.png") 0 -0 no-repeat;}
+.list_partager .p_notepad a:hover{background:transparent url("img/pic_comment_no_square_hover.png") 0 -0 no-repeat;}
+
+#content_actions
+{
+	vertical-align: middle;
+	display: inline-block;
+	margin-top: 15px;
+	float: right;
+	padding: 0px;
+}
+#content_actions #btn_imprimer
+{
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#content_actions #btn_imprimer, #content_actions #btn_blocnotes, #content_actions #btn_blocnotes a
+{
+	vertical-align: middle;
+	display: inline-block;
+}

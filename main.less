@@ -1,0 +1,109 @@
+@import "_bootstrap-3.3.1/less/bootstrap.less";
+@import "share.css";
+
+@navbar-default-link-active-bg:            #FFFFFF;
+@navbar-default-link-hover-color:          #fab711;
+@navbar-default-link-active-color:         #fab711;
+@navbar-default-link-color:                #000;
+
+@font-face {
+  font-family: "sanuk";
+    src: url(fonts/SanukOT-Medium.otf);
+}
+@font-face {
+  font-family: "Open Sans Condensed";
+    src: url(fonts/OpenSans-CondLight.ttf);
+}
+// .nav li:before {
+//   content: " | ";
+// }
+
+ul.nav > li {
+@media (min-width: @screen-sm-min){
+  float: none;
+  display: inline-block;
+  }
+}
+#main-menu {
+  @media (min-width: @screen-sm-min){
+    margin-left: -45px;
+    margin-right: -45px;
+  }
+}
+.navbar-right {
+  @media (min-width: @screen-sm-min){
+    margin-right: -45px;
+  }
+}
+.contacts {
+  @media (min-width: @screen-sm-min){
+    background: url(img/where.png) no-repeat left 19px;
+  }
+}
+//////////////////////////////////////////////////убрать в конце
+html {
+    height: 102%;
+}
+
+.navbar-default {
+  background-color: #FFFFFF;
+}
+h1.page-title {
+  color: #84919E;
+  font-family: 'Open Sans Condensed', sans-serif;
+  // font-weight: 400;
+}
+.top {
+	margin-top: 10px;
+}
+.div-padding {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.nav-justified {
+    > li > a {
+      color: @navbar-default-link-color;
+
+      &:hover,
+      &:focus {
+        color: @navbar-default-link-hover-color;
+        background-color: @navbar-default-link-hover-bg;
+      }
+    }
+    > .active > a {
+      &,
+      &:hover,
+      &:focus {
+        color: @navbar-default-link-active-color;
+        background-color: @navbar-default-link-active-bg;
+      }
+    }
+    > .disabled > a {
+      &,
+      &:hover,
+      &:focus {
+        color: @navbar-default-link-disabled-color;
+        background-color: @navbar-default-link-disabled-bg;
+      }
+    }
+}
+.div-padding-side {
+	display: inline;
+	padding-left: 50px;
+}
+.somfy {
+		font-family: "sanuk";
+}
+.line {
+  background-color: #D7D8DA;
+  height: 6px;
+  margin: 0px -15px;
+}
+.footer {
+  // position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+

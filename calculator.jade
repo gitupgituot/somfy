@@ -1,0 +1,52 @@
+form(name="priceCalc")
+	.row.top
+		.col-md-4
+		.col-md-4
+			select.form-control(name="first" onchange="price();")
+				option(value="1") 1
+				option(value="2") 2
+				option(value="3") 3
+				option(value="4") 4
+				option(value="5") 5
+		.col-md-4
+	.row.top
+		.col-md-4
+		.col-md-4
+			select.form-control(name="second" onchange="price();")
+				option(value="1") 1
+				option(value="2") 2
+				option(value="3") 3
+		.col-md-4
+	.row.top
+		.col-md-4
+		.col-md-4
+			select.form-control(name="third" onchange="price();")
+				option(value="1") 1
+				option(value="2") 2
+				option(value="3") 3
+		.col-md-4
+	.row.top
+		.col-md-4
+		.col-md-4
+			select.form-control(name="fourth" onchange="price();")
+				option(value="1") 1
+				option(value="2") 2
+		.col-md-4
+	.row.top
+		.col-md-4
+		.col-md-4
+			#pricediv
+				| Выберите нужные Вам опции, чтобы узнать цену
+		.col-md-4
+
+script(type="text/javascript").
+	function price(){
+		var one = document.priceCalc.first;
+		var two = document.priceCalc.second;
+		var three = document.priceCalc.third;
+		var four = document.priceCalc.fourth;
+		
+		var price = parseInt(one.value) + parseInt(two.value) + parseInt(three.value) + parseInt(four.value);
+
+		document.getElementById("pricediv").innerHTML = 'Цена: ' + price;
+	}

@@ -1,0 +1,30 @@
+{
+  "index": {
+    "name": "Somfy Glydea",
+    "description": "I’m awesome and so are you"
+  },
+  "docs": {
+    "name": "Документы",
+    "description": "I’m awesome and so are you"
+  },
+  "brand": {
+    "name": "История Somfy",
+    "description": "I’m awesome and so are you"
+  },
+  "photo": {
+    "name": "Фотогалерея",
+    "description": "I’m awesome and so are you"
+  },
+  "calculator": {
+    "name": "Расчет цены",
+    "description": "I’m awesome and so are you"
+  },
+  "faq": {
+    "name": "Вопрос-ответ",
+    "description": "I’m awesome and so are you"
+  },
+  "contacts": {
+    "name": "Контакты",
+    "description": "I’m awesome and so are you"
+  }
+}
