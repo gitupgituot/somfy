@@ -106,4 +106,29 @@ h1.page-title {
   /* Set the fixed height of the footer here */
   height: 60px;
 }
-
+ul.pdf {
+  list-style-type: none;
+  padding: 0px;
+}
+ul.pdf li {
+  padding-left: 22px;
+  background: url("img/docs/pdf.png") no-repeat left 4px;
+  a {
+    // .small();
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 80%;
+    color: @text-color;
+      &:hover,
+      &:focus {
+        color: @navbar-default-link-hover-color;
+        background-color: @navbar-default-link-hover-bg;
+      }
+  }
+}
+.col-docs {
+  margin-bottom: 20px;
+  h5 {
+    margin-top: 0px;
+  }
+}
